@@ -19,3 +19,4 @@ for line in f:
     chem_marks = int(columns[2])
     print(chem_marks)
 f.close()
+
