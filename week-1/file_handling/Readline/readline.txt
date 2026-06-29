@@ -1,0 +1,8 @@
+i
+am
+reading
+the
+line
+using
+readline
+methods

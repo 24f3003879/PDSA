@@ -1,0 +1,15 @@
+#As its name suggests, the readline method reads from the file one line at a time:
+
+file = open("week-1/file_handling/Readline/readline.txt")
+line1 = file.readline()
+line2 = file.readline()
+line3 = file.readline()
+line4 = file.readline()
+line5 = file.readline()
+line6 = file.readline()
+line7 = file.readline()
+line8 = file.readline()
+line9 = file.readline()
+line10 = file.readline()
+print(line1, line2, line3, line4, line5, line6, line7, line8, line9, line10)
+file.close()
