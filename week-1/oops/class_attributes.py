@@ -19,3 +19,10 @@ andrew = students('Andrew', 85)
 print('Number of students in the program =', students.counter)
 usha = students('Usha', 95)
 print('Number of students in the program =', students.counter)
+
+print(madhavan.counter)
+
+
+madhavan.counter = -1
+print(students.counter)
+print(madhavan.counter)
