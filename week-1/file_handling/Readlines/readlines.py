@@ -3,6 +3,6 @@
 file = open("week-1/file_handling/Readlines/readlines.txt", 'r')
 lines = file.readlines()
 for line in lines:
-    print(line.strip() )
+    print(line.strip())
 file.close
 
