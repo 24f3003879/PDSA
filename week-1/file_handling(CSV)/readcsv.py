@@ -1,7 +1,7 @@
-# file = open("week-1/file_handling(CSV)/readcsv.csv", 'r')
-# for line in file:
-#     print(line.strip())
-# file.close()
+file = open("week-1/file_handling(CSV)/readcsv.csv", 'r')
+for line in file:
+    print(line.strip())
+file.close()
 
 
 # print the chem marks of each student
@@ -21,5 +21,4 @@ for line in f:
 f.close()
 
 
-# columns = line.split(',')
-# chem_marks = int(columns[2])
+
