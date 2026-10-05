@@ -1,13 +1,15 @@
 def isprime(n):
     if n <= 1:
-        print(false)
+        return False
     else:
         prime = True
         for i in range(2, int(n**0.5) + 1):
             if n%i == 0:
                 prime = False
-                break 
-        print(prime)
+                break
+        return prime
 
-isprime(9)
-isprime(7)
+
+print(isprime(9))
+print(isprime(10))
+
