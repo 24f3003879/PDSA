@@ -47,16 +47,17 @@ class Triangle:
 
 
 
-t = Triangle(45, 6, 89)
-t1 = Triangle(2, 3, 4)
-print(t.Area())
-print(t1.Area())
+t = Triangle(2, 3, 4)
+t1 = Triangle(10, 3, 5)
+
 print(t.Is_valid())
 print(t1.Is_valid())
-print(t.a)
-print(t.b)
-print(t.c)
-
+print(t.Side_Classification())
+print(t1.Side_Classification())
+print(t.Angle_Classification())
+print(t1.Angle_Classification())
+print(t.Area())
+print(t1.Area())
 
 
     
