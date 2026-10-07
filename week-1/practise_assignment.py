@@ -36,13 +36,15 @@
 
 #q-5
 
-class Person:
-    def __init__(self, name):
-        self.name = name
+# class Person:
+#     def __init__(self, name):
+#         self.name = name
 
-    def say_hi(self):
-        print("Hello,", self.name)
+#     def say_hi(self):
+#         print("Hello,", self.name)
 
-p = Person("Good Morning")
-p.say_hi()
+# p = Person("Good Morning")
+# p.say_hi()
+
+
 
