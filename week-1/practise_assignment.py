@@ -26,10 +26,23 @@
 #q-4
 
 
-x = 1
-while True:
-    if x % 5 = = 0:
-        break
-    print(x, end = ' ')
-    x + = 1
+# x = 1
+# while True:
+#     if x % 5 = = 0:
+#         break
+#     print(x, end = ' ')
+#     x + = 1
+
+
+#q-5
+
+class Person:
+    def __init__(self, name):
+        self.name = name
+
+    def say_hi(self):
+        print("Hello,", self.name)
+
+p = Person("Good Morning")
+p.say_hi()
 
