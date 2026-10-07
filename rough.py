@@ -1,4 +1,6 @@
-L = [[10.5], '10.5', 10.5, (10.5)]
-
-print(int(L[1]))
-
+x = 1
+while True:
+    if x % 5 = = 0:
+        break
+    print(x, end = ' ')
+    x += 1
