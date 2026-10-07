@@ -14,12 +14,22 @@
 
 #q-3
 
-def f(n):
-    s = 0
-    for i in range(2, n):
-        if n % i == 0 and i % 2 == 1:
-            s = s + 1
-    return (s)
+# def f(n):
+#     s = 0
+#     for i in range(2, n):
+#         if n % i == 0 and i % 2 == 1:
+#             s = s + 1
+#     return (s)
 
-print(f(60) - f(59))
+# print(f(60) - f(59))
+
+#q-4
+
+
+x = 1
+while True:
+    if x % 5 = = 0:
+        break
+    print(x, end = ' ')
+    x + = 1
 
