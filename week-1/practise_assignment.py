@@ -59,20 +59,37 @@
 
 #q-7
 
-L = [44, 6, 36]
+# L = [44, 6, 36]
 
-def special3Bad(L):
+# def special3Bad(L):
+#     try:
+#         if L[0] % L[1] == 0 and L[1] != 0:
+#             if L[0] / (L[1] ** 2 - L[2]) == 0:
+#                 return True
+#             return False
+#     except ZeroDivisionError:
+#         print ("ZeroDivisionError")
+#     except:
+#         print("Some other exception occurred")
+#     else:
+#         print("No exception occurred")
+# special3Bad(L)
+
+#q-8
+
+
+L = [2, 4, 6]
+
+def isSymmetricBad(L):
     try:
-        if L[0] % L[1] == 0 and L[1] != 0:
-            if L[0] / (L[1] ** 2 - L[2]) == 0:
-                return True
-            return False
-    except ZeroDivisionError:
-        print ("ZeroDivisionError")
+        while len(L) > 0:
+            if L.pop(0) != L.pop(-1):
+                return False
+        return True
+    except IndexError:
+        print("IndexError")
     except:
         print("Some other exception occurred")
     else:
         print("No exception occurred")
-special3Bad(L)
-
-
+isSymmetricBad(L)
