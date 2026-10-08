@@ -78,18 +78,64 @@
 #q-8
 
 
-L = [2, 4, 6]
+# L = [2, 4, 6]
 
-def isSymmetricBad(L):
-    try:
-        while len(L) > 0:
-            if L.pop(0) != L.pop(-1):
-                return False
-        return True
-    except IndexError:
-        print("IndexError")
-    except:
-        print("Some other exception occurred")
-    else:
-        print("No exception occurred")
-isSymmetricBad(L)
+# def isSymmetricBad(L):
+#     try:
+#         while len(L) > 0:
+#             if L.pop(0) != L.pop(-1):
+#                 return False
+#         return True
+#     except IndexError:
+#         print("IndexError")
+#     except:
+#         print("Some other exception occurred")
+#     else:
+#         print("No exception occurred")
+# isSymmetricBad(L)
+
+
+#q-9
+
+# count = 0
+# def gcd(m,n):
+#     global count
+#     count += 1
+    
+#     (a, b) = (max(m, n)), (min(m, n))
+    
+#     if a % b == 0:
+#         return (b)
+#     else:
+#         return(gcd(b, a % b))
+
+        
+
+# print(gcd(24, 130))
+# print(count)
+
+
+#q-10
+
+# class Enrollment:
+#     count = 0
+#     def __init__(self, n, c):
+#         self.name = n
+#         self.course = c
+#         Enrollment.count += 1
+#     def display(self):
+#         print(self.name)
+#         print(self.course)
+
+
+#q-11
+
+# def fun(n):
+#     if n == 0:
+#         return 0
+#     return (n % 10) + fun(n // 100)
+
+print(123 // 100)
+
+
+    
