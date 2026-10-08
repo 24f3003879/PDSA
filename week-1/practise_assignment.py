@@ -49,10 +49,13 @@
 
 #q-6
 
-a = [1, 2, 3]
-try:
-    print("Second Element = %d" %(a[1]))
-    print("Second Element = %d" %(a[4]))
-except:
-    print("An error occurred")
+# a = [1, 2, 3]
+# try:
+#     print("Second Element = %d" %(a[1]))
+#     print("Second Element = %d" %(a[4]))
+# except:
+#     print("An error occurred")
+
+
+
 
