@@ -130,10 +130,12 @@
 
 #q-11
 
-# def fun(n):
-#     if n == 0:
-#         return 0
-#     return (n % 10) + fun(n // 100)
+def fun(n):
+    if n == 0:
+        return 0
+    return (n % 10) + fun(n // 100)
+
+
 
 print(123 // 100)
 
