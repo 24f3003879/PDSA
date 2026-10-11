@@ -130,14 +130,35 @@
 
 #q-11
 
+# def fun(n):
+#     if n == 0:
+#         return 0
+#     return (n % 10) + fun(n // 100)
+
+
+
+# print(fun(213456))
+
+
+#q-12
+
+# def fun(n):
+#     if n == 0:
+#         return 0
+#     if (n%10) % 2 == 0:
+#         return 1 + fun(n//10)
+#     else:
+#         return fun(n // 10)
+
+
+#q-13
+
 def fun(n):
-    if n == 0:
+    if n <= 1:
         return 0
-    return (n % 10) + fun(n // 100)
+    return fun(n - 1) + fun(n - 2)
 
-
-
-print(123 // 100)
+print(fun(5))
 
 
     
